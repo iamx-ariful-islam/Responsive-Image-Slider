@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Responsive Image Slider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="logo">Image<span id="logo-s">Slider</span></div>
+      <span class="sign"><a class="act" href="#">SIGN UP</a></span>
+      <span class="sign"><a href="#">SIGN IN</a></span>
+    </header>
+
+    <div class="slider">
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>IMAGE 1</h1>
+          <p>Web Devoloper<br />If you like this project, give it a ⭐ star on GitHub</p>
+        </div>
+        <img src="images/img1.jpg" style="width: 100%; height: 100%" />
+      </div>
+
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>IMAGE 2</h1>
+          <p>Web Devoloper<br />If you like this project, give it a ⭐ star on GitHub</p>
+        </div>
+        <img src="images/img2.jpg" style="width: 100%; height: 100%" />
+      </div>
+
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>IMAGE 3</h1>
+          <p>Web Devoloper<br />If you like this project, give it a ⭐ star on GitHub</p>
+        </div>
+        <img src="images/img3.jpg" style="width: 100%; height: 100%" />
+      </div>
+
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>IMAGE 4</h1>
+          <p>Web Devoloper<br />If you like this project, give it a ⭐ star on GitHub</p>
+        </div>
+        <img src="images/img4.jpg" style="width: 100%; height: 100%" />
+      </div>
+
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>IMAGE 5</h1>
+          <p>Web Devoloper<br />If you like this project, give it a ⭐ star on GitHub</p>
+        </div>
+        <img src="images/img5.jpg" style="width: 100%; height: 100%" />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div class="dotsbox" style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
